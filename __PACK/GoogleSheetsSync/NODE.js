@@ -1,0 +1,1 @@
+GoogleSheetsSync.MAIN=METHOD({run:n=>{if(1===CPU_CLUSTERING.getWorkerId()&&void 0!==NODE_CONFIG.GoogleSheetsSync){let o=RAR(()=>{EACH(NODE_CONFIG.GoogleSheetsSync,(n,o)=>{GET(n,n=>{WRITE_FILE({path:o,content:n})})})});n(()=>{o()})}}});
